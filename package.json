@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@google-cloud/vertexai": "^1.9.2",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "flowbite": "^2.5.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.16"
+  },
+  "scripts": {
+    "build": "npx tailwindcss build src/input.css -o src/output.css"
+  }
+}
